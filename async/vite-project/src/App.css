@@ -57,7 +57,15 @@ h1 {
   outline: 5px solid white;
   outline-offset: -10px;
 }
-
+.item img{
+  max-width: 100%;
+  min-width: none;
+}
 .item img:hover {
   transform: scale(0.9);
+}
+@media only screen and ( max-width: 600px){
+  .item{
+width: 100%;
+  }
 }
