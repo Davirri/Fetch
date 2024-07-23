@@ -4,7 +4,9 @@
   background-image: url(https://wallpapercave.com/wp/wp7185806.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .gallery {
